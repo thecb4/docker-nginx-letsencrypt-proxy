@@ -1,16 +1,16 @@
 Docker Nginx Proxy with Let's Encrypt
 =====================================
 
-![GitHub Release Version](https://img.shields.io/github/release/annixa/docker-nginx-letsencrypt-proxy.svg)
-![Docker Hub Pulls](https://img.shields.io/docker/pulls/annixa/docker-nginx-letsencrypt-proxy.svg)
-![Docker Hub Stars](https://img.shields.io/docker/stars/annixa/docker-nginx-letsencrypt-proxy.svg)
-![GitHub Open Issues](https://img.shields.io/github/issues/annixa/docker-nginx-letsencrypt-proxy.svg)
+![GitHub Release Version](https://img.shields.io/github/release/thecb4/docker-nginx-letsencrypt-proxy.svg)
+![Docker Hub Pulls](https://img.shields.io/docker/pulls/thecb4/docker-nginx-letsencrypt-proxy.svg)
+![Docker Hub Stars](https://img.shields.io/docker/stars/thecb4/docker-nginx-letsencrypt-proxy.svg)
+![GitHub Open Issues](https://img.shields.io/github/issues/thecb4/docker-nginx-letsencrypt-proxy.svg)
 
 Docker Nginx Proxy with Let's Encrypt simplifies application integration with Let's Encrypt.
 
-This project provides a simple nginx configuration and auto-updating Let's Encrypt for integration with existing services. 
+This project provides a simple nginx configuration and auto-updating Let's Encrypt for integration with existing services.
 
-Docker Hub image: [docker-nginx-letsencrypt-proxy](https://hub.docker.com/r/annixa/docker-nginx-letsencrypt-proxy/)
+Docker Hub image: [docker-nginx-letsencrypt-proxy](https://hub.docker.com/r/thecb4/docker-nginx-letsencrypt-proxy/)
 
 Quick Deploy (`docker-compose.yml`)
 -----------------------------------
@@ -57,12 +57,12 @@ The following docker environment variables are required for proper usage:
   - See [docker-entrypoint.sh](https://github.com/Annixa/docker-nginx-letsencrypt-proxy/blob/master/docker-entrypoint.sh) for the suites used
   - Updated August 6, 2017
   - This setting will correspond to the following browser compatibilities:
-  
-| Configuration | Oldest compatible client | 
+
+| Configuration | Oldest compatible client |
 | ------------- |:------------------------|
 | `MODERN` | Firefox 27, Chrome 30, IE 11 on Windows 7, Edge, Opera 17, Safari 9, Android 5.0, Java 8 |
 | `INTERMEDIATE` |	Firefox 1, Chrome 1, IE 7, Opera 5, Safari 1, Windows XP IE8, Android 2.3, Java 7 |
-| `OLD` |	Windows XP IE6, Java 6 | 
+| `OLD` |	Windows XP IE6, Java 6 |
 
 How It Works
 ------------
